@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+body { font-family: Arial, sans-serif; text-align: center; }
+.container { margin-top: 20px; }
+iframe { width: 29%; height: 1200px; border: none; }
+button { margin: 10px; padding: 10px 20px; font-size: 16px; }
+
+.container {
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #666;
+}
+
+.author {
+    font-size: 14px;
+    color: #888;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+}
+button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  button img.button-icon {
+    width:50px; /* عرض الصورة */
+    height: 50px; /* ارتفاع الصورة */
+    margin-right: 10px; /* مسافة بين الصورة والنص */
+    vertical-align: middle; /* لتوسيط الصورة مع النص */
+}
